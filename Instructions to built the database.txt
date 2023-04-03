@@ -1,0 +1,8 @@
+1) To create database use below in terminal
+
+python
+
+from yourapplication import app , db
+
+with app.app_context():
+    db.create_all()
